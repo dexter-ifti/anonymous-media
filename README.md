@@ -1,7 +1,34 @@
-# FullStack Social Media App
 
-Build a COMPLETE Fullstack Responsive MERN App with Auth, Likes, Dark Mode | React, MongoDB, MUI
+To clone the repository, run the following command in your terminal:
 
-Video: https://www.youtube.com/watch?v=K8YELRmUb5o
+```bash
+git clone https://github.com/tahaifti/social-media.git
+```
 
-For all related questions and discussions about this project, check out the discord: https://discord.gg/2FfPeEk2mX
+After cloning the repository, navigate to the `server` directory and install the required dependencies by running:
+
+```bash
+cd server
+npm install
+touch .env
+add varaibles like .env_example
+```
+
+To start the server, run the following command:
+
+```bash
+node index.js
+```
+
+In a separate terminal, navigate to the `client` directory and install the dependencies by running:
+
+```bash
+cd client
+npm install
+```
+
+To start the client, run the following command:
+
+```bash
+npm run start
+```
